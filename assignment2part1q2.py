@@ -12,4 +12,4 @@ def fibo(n):
         fl += [fl[i - 1] + fl[i - 2]]  # Append the sum of the previous two numbers.
 
     return fl  # Return the complete Fibonacci sequence.
-print(fibo(5))  # Output: [1, 1, 2, 3, 5, 8]
+print(fibo(5))  # Output should be [1, 1, 2, 3, 5, 8]
